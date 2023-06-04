@@ -8,12 +8,12 @@ int main()
     setlocale(LC_CTYPE, "Russian");
 
     size_t n;
-    printf("введите число элементов очереди\n");
+    printf("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЌР»РµРјРµРЅС‚РѕРІ РѕС‡РµСЂРµРґРё\n");
     scanf("%i", &n);
 
     deque *deque = deque_alloc();
 
-    printf("введите элементы очереди по порядку\n");
+    printf("РІРІРµРґРёС‚Рµ СЌР»РµРјРµРЅС‚С‹ РѕС‡РµСЂРµРґРё РїРѕ РїРѕСЂСЏРґРєСѓ\n");
 
     for (int i = 0; i < n ; ++i)
     {
@@ -24,18 +24,18 @@ int main()
 
     printf("\n");
 
-    printf("печать очереди:\n");
+    printf("РїРµС‡Р°С‚СЊ РѕС‡РµСЂРµРґРё:\n");
     print_deque(deque);
 
-    printf("удалили элемент из начала:\n");
+    printf("СѓРґР°Р»РёР»Рё СЌР»РµРјРµРЅС‚ РёР· РЅР°С‡Р°Р»Р°:\n");
     deque_pop_front(deque);
     print_deque(deque);
 
-    printf("удалили элемент из конца:\n");
+    printf("СѓРґР°Р»РёР»Рё СЌР»РµРјРµРЅС‚ РёР· РєРѕРЅС†Р°:\n");
     deque_pop_back(deque);
     print_deque(deque);
 
-    printf("первый элемент:\n");
+    printf("РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚:\n");
     printf("%.2lf", deque_get_front(deque));
 
     deque_free (deque);
