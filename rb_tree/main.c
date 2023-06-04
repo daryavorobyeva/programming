@@ -7,13 +7,13 @@ int main()
 {
     setlocale(LC_CTYPE, "Russian");
 
-    node* root = (node *) malloc(sizeof(node));             // выделяем память под корень
+    node* root = (node *) malloc(sizeof(node));             // РІС‹РґРµР»СЏРµРј РїР°РјСЏС‚СЊ РїРѕРґ РєРѕСЂРµРЅСЊ
     if (!root) return NULL;
 
-    root->data = 64;                                        // пример дерева
+    root->data = 64;                                        // РїСЂРёРјРµСЂ РґРµСЂРµРІР°
     root->color = BLACK;
 
-    root->left = (node*) malloc(sizeof(node));              // выделяем память под левый узел
+    root->left = (node*) malloc(sizeof(node));              // РІС‹РґРµР»СЏРµРј РїР°РјСЏС‚СЊ РїРѕРґ Р»РµРІС‹Р№ СѓР·РµР»
     if (!root->left) return NULL;
 
     root->left->data = 15;
@@ -22,7 +22,7 @@ int main()
     root->left->left = NULL;
     root->left->right = NULL;
 
-    root->right = (node *) malloc(sizeof(node));            // выделяем память под правый узел
+    root->right = (node *) malloc(sizeof(node));            // РІС‹РґРµР»СЏРµРј РїР°РјСЏС‚СЊ РїРѕРґ РїСЂР°РІС‹Р№ СѓР·РµР»
     if (!root->right) return NULL;
 
     root->right->data = 79;
@@ -31,8 +31,8 @@ int main()
     root->right->left = NULL;
     root->right->right = NULL;
 
-    if (is_rb_tree(root)) printf("это красно-чёрное дерево\n");
-    else printf("это не красно-чёрное дерево\n");
+    if (is_rb_tree(root)) printf("ГЅГІГ® ГЄГ°Г Г±Г­Г®-Г·ВёГ°Г­Г®ГҐ Г¤ГҐГ°ГҐГўГ®\n");
+    else printf("ГЅГІГ® Г­ГҐ ГЄГ°Г Г±Г­Г®-Г·ВёГ°Г­Г®ГҐ Г¤ГҐГ°ГҐГўГ®\n");
 
     free_tree(root);
 
