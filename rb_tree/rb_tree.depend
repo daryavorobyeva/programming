@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1685823394 source:c:\users\Даша\desktop\rb_tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1685824044 source:c:\users\Даша\desktop\rb_tree\rb_tree.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
+1685824704 c:\users\Даша\desktop\rb_tree\head.h
+
+1685824704 source:c:\users\Даша\desktop\rb_tree\free.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
