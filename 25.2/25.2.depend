@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1685870245 source:c:\users\Даша\desktop\25.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
+1685869992 source:c:\users\Даша\desktop\25.2\alloc_free.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
+1685871398 c:\users\Даша\desktop\25.2\head.h
+
+1685870200 source:c:\users\Даша\desktop\25.2\clone_print_getfront.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
+1685869992 source:c:\users\Даша\desktop\25.2\pop_push.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"head.h"
+
