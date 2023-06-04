@@ -31,8 +31,8 @@ int main()
     root->right->left = NULL;
     root->right->right = NULL;
 
-    if (is_rb_tree(root)) printf("ýòî êðàñíî-÷¸ðíîå äåðåâî\n");
-    else printf("ýòî íå êðàñíî-÷¸ðíîå äåðåâî\n");
+    if (is_rb_tree(root)) printf("это красно-чёрное дерево\n");
+    else printf("это не красно-чёрное дерево\n");
 
     free_tree(root);
 
